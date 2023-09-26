@@ -9,14 +9,16 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,scss|less}",
   ],
   theme: {
-    fontFamily: fontFamily,
-    colors: colors,
-    fontSize: fontSize,
-    screens: screens,
+    extend: {
+      fontFamily: fontFamily,
+      colors: colors,
+      fontSize: fontSize,
+      screens: screens,
+    },
   },
   corePlugins: require('./commons/tailwind/plugins/corePlugins'),
   plugins: [
     require('./commons/tailwind/plugins/index'),
-
   ]
 }
+
