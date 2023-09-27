@@ -1,24 +1,11 @@
-/** @type {import('tailwindcss').Config} */
-const fontFamily = require('./commons/tailwind/theme/fontFamily');
-const colors = require('./commons/tailwind/theme/colors');
-const fontSize = require('./commons/tailwind/theme/fontSize');
-const screens = require('./commons/tailwind/theme/screens');
-
 module.exports = {
-  content: [
-    "./src/**/*.{js,ts,jsx,tsx,scss|less}",
-  ],
+  purge: [],
+  darkMode: false,
   theme: {
-    extend: {
-      fontFamily: fontFamily,
-      colors: colors,
-      fontSize: fontSize,
-      screens: screens,
-    },
+    extend: {},
   },
-  corePlugins: require('./commons/tailwind/plugins/corePlugins'),
-  plugins: [
-    require('./commons/tailwind/plugins/index'),
-  ]
+  variants: {
+    extend: {},
+  },
+  plugins: [],
 }
-
