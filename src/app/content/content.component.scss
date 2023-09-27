@@ -1,0 +1,31 @@
+.main-container{
+  @apply flex flex-row gap-x-24 justify-center items-center p-10;
+}
+
+.sec-container{
+  @apply flex flex-col;
+}
+
+.text-container{
+  @apply text-white;
+}
+
+.button-container{
+  @apply text-white flex flex-row gap-x-10 text-[10px];
+}
+
+.main-text{
+  @apply text-6xl;
+}
+
+.description{
+  @apply text-xl font-light w-[700px];
+}
+
+.powered-text{
+  @apply font-light;
+}
+
+.discover-button{
+  @apply  rounded-[50px] w-[220px] bg-transparent text-white text-[18px] border-amber-50;
+}
