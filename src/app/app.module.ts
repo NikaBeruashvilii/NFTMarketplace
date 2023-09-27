@@ -7,6 +7,7 @@ import { XyzComponent } from './xyz/xyz.component';
 import { HeaderComponent } from './header/header.component';
 import { ContentComponent } from './content/content.component';
 import { AboutComponent } from './about/about.component';
+import { DiscoverComponent } from './discover/discover.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { AboutComponent } from './about/about.component';
     XyzComponent,
     HeaderComponent,
     ContentComponent,
-    AboutComponent
+    AboutComponent,
+    DiscoverComponent
   ],
   imports: [
     BrowserModule,

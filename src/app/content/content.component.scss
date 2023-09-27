@@ -32,7 +32,7 @@
 
 
 .frame {
-  @apply w-full flex flex-row gap-x-8 text-white uppercase font-normal text-[12px] relative overflow-hidden ;
+  @apply w-full flex flex-row gap-x-8 text-white uppercase font-normal text-[12px] relative overflow-hidden items-center justify-center ;
   border-bottom: 1px solid #fff;
   border-top: 1px solid #fff;
 }

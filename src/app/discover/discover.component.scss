@@ -1,0 +1,39 @@
+
+.main-container{
+  @apply p-32 grid grid-cols-3 grid-rows-4 gap-24;
+}
+
+.card-container{
+  @apply flex  gap-10;
+  background-image: url('/assets/mainrectangle.svg');
+  background-repeat: no-repeat;
+}
+
+.card{
+  @apply  pl-10 z-10;
+}
+
+.quality{
+  @apply flex flex-row text-white gap-x-4 text-[4px] text-center p-2;
+}
+
+.button-container{
+  @apply flex flex-row gap-4;
+}
+
+.first-button{
+  @apply text-white text-[10px] bg-transparent w-[100px] rounded-[50px]  h-[30px] border-amber-50 uppercase;
+}
+
+
+.sec-button{
+  @apply text-white text-[10px]  w-[100px] rounded-[50px] h-[30px] border-0 uppercase;
+  background: linear-gradient(100deg, #06DBAC 5.23%, #BD00FF 92.7%);
+}
+
+.last-button-container{
+  @apply flex justify-center items-center  w-full  p-10;
+}
+.last-button{
+  @apply w-[300px] text-gray-600 text-[14px] bg-transparent rounded-[50px] border-b-gray-500 h-[40px] cursor-pointer;
+}

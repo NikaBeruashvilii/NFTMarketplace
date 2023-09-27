@@ -1,5 +1,5 @@
 .main-container{
-  @apply flex flex-row gap-x-24 justify-center items-center p-10;
+  @apply flex flex-col gap-x-24  p-10;
 }
 
 
@@ -40,9 +40,12 @@
 
 
 .marketplace-container{
-  @apply   gap-x-24 p-10 justify-center items-center pt-24 h-[600px];
+  @apply   gap-x-24 p-10 justify-center items-center pt-24;
 }
 
+.four-cards{
+  @apply flex flex-row gap-10;
+}
 
 .card-container{
   @apply flex  gap-10;
@@ -86,4 +89,36 @@
 
 .description-1{
   @apply  w-[500px] text-[16px] text-white font-light ;
+}
+
+
+.community-container{
+  @apply flex flex-row  p-20;
+}
+
+.engage-container{
+  @apply gap-14;
+}
+.date-container{
+  @apply flex flex-col  gap-10;
+}
+
+.engage-container{
+  @apply flex flex-row;
+}
+
+.main-text-2{
+  @apply text-white text-6xl font-medium;
+}
+
+.headline{
+  @apply text-white text-6xl;
+}
+
+.description-auto{
+  @apply text-white font-light;
+}
+
+.button{
+  @apply w-[260px] rounded-[50px] h-[40px] bg-transparent text-gray-600 text-[14px] font-light;
 }
