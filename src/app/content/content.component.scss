@@ -11,7 +11,7 @@
 }
 
 .button-container{
-  @apply text-white flex flex-row gap-x-10 text-[10px];
+  @apply text-white flex flex-row gap-x-10 text-[10px] ;
 }
 
 .main-text{
@@ -27,5 +27,34 @@
 }
 
 .discover-button{
-  @apply  rounded-[50px] w-[220px] bg-transparent text-white text-[18px] border-amber-50;
+  @apply  rounded-[50px] w-[220px] bg-transparent text-white text-[18px] border-amber-50 cursor-pointer hover:accent-purple-500;
+}
+
+
+.frame {
+  @apply w-full flex flex-row gap-x-8 text-white uppercase font-normal text-[12px] relative overflow-hidden ;
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+}
+
+.frame h1 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  animation: slideLeft 4s linear infinite;
+}
+
+.frame img {
+  max-width: 100%;
+  height: auto;
+  animation: slideLeft 4s linear infinite;
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
