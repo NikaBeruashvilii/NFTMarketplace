@@ -1,0 +1,27 @@
+.header-container{
+  @apply w-full flex flex-row  gap-x-80  text-white h-[75px] items-center justify-center font-normal;
+  font-size:10px;
+}
+
+.sec-title {
+  @apply font-light;
+}
+
+.nav-container{
+  @apply flex flex-row items-baseline gap-x-10 p-0 inline uppercase text-white;
+
+  li {
+    @apply text-white;
+    list-style-type: none;
+  }
+
+  a {
+    @apply text-white font-normal line-clamp-4;
+    text-decoration: none;
+  }
+}
+
+
+.header-icons{
+  @apply flex flex-row gap-x-10;
+}
