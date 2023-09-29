@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+p, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-image: url('assets/group.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: black;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+

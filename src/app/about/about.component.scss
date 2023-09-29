@@ -1,0 +1,89 @@
+.main-container{
+  @apply flex flex-row gap-x-24 justify-center items-center p-10;
+}
+
+
+.work-container{
+  @apply flex flex-row gap-x-24 p-10 justify-center items-center pt-24;
+}
+
+.text-container{
+  @apply flex flex-col ;
+}
+
+.main-text{
+  @apply text-white text-6xl;
+}
+
+.description{
+  @apply w-[600px] text-[16px] text-white font-light ;
+}
+
+.music-image-container {
+  @apply  relative;
+}
+
+.music-img {
+ @apply w-full h-full;
+  object-fit: cover;
+}
+
+.music-image-container::before {
+  @apply absolute top-0 left-0 w-full h-full;
+  content: "";
+  background-image: url('/assets/rectangle.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+
+
+.marketplace-container{
+  @apply   gap-x-24 p-10 justify-center items-center pt-24 h-[600px];
+}
+
+
+.card-container{
+  @apply flex  gap-10;
+  background-image: url('/assets/rec.svg');
+  background-repeat: no-repeat;
+}
+
+.card{
+  @apply  pl-10 z-10;
+}
+
+.queen-img{
+  @apply flex;
+}
+
+
+.quality{
+  @apply flex flex-row text-white gap-x-4 text-[4px] text-center p-2;
+}
+
+
+.first-section{
+  @apply flex flex-col;
+}
+
+.sec-section{
+  @apply flex flex-col gap-10;
+}
+
+.marketplace-container{
+  @apply flex flex-row  p-10 justify-center items-center;
+}
+
+.text-container-1{
+  @apply flex flex-col pl-16;
+}
+
+.main-text-1{
+  @apply text-white text-6xl w-[500px] ;
+}
+
+.description-1{
+  @apply  w-[500px] text-[16px] text-white font-light ;
+}
