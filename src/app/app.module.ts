@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { ContentComponent } from './content/content.component';
 import { AboutComponent } from './about/about.component';
 import { DiscoverComponent } from './discover/discover.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DiscoverComponent } from './discover/discover.component';
     HeaderComponent,
     ContentComponent,
     AboutComponent,
-    DiscoverComponent
+    DiscoverComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

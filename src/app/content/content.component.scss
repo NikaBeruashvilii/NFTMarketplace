@@ -2,6 +2,14 @@
   @apply flex flex-row gap-x-24 justify-center items-center p-10;
 }
 
+@media(max-width: 1526px){
+  .main-container{
+    @apply gap-x-10 p-24 flex flex-col;
+  }
+}
+
+
+
 .sec-container{
   @apply flex flex-col;
 }
@@ -18,8 +26,21 @@
   @apply text-6xl;
 }
 
+@media(max-width: 1526px){
+  .main-text{
+    @apply text-3xl;
+  }
+}
+
+
 .description{
   @apply text-xl font-light w-[700px];
+}
+
+@media(max-width: 1526px){
+  .description{
+    @apply w-[400px];
+  }
 }
 
 .powered-text{

@@ -7,6 +7,11 @@
   @apply flex flex-row gap-x-24 p-10 justify-center items-center pt-24;
 }
 
+@media(max-width: 1526px){
+  .work-container{
+    @apply flex flex-col;
+  }
+}
 .text-container{
   @apply flex flex-col ;
 }
@@ -40,11 +45,23 @@
 
 
 .marketplace-container{
-  @apply   gap-x-24 p-10 justify-center items-center pt-24;
+  @apply   gap-x-24 flex flex-row  p-10 justify-center items-center pt-24;
+}
+
+@media(max-width: 1526px){
+  .marketplace-container{
+    @apply flex flex-row;
+  }
 }
 
 .four-cards{
   @apply flex flex-row gap-10;
+}
+
+@media(max-width: 1526px){
+  .four-cards{
+    @apply flex flex-col justify-center items-center;
+  }
 }
 
 .card-container{
@@ -82,6 +99,8 @@
 .text-container-1{
   @apply flex flex-col pl-16;
 }
+
+
 
 .main-text-1{
   @apply text-white text-6xl w-[500px] ;

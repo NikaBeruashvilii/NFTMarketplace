@@ -1,0 +1,11 @@
+.main-container{
+  @apply flex flex-col text-white bg-transparent p-14 w-full;
+}
+
+.social-container{
+  @apply flex flex-row gap-x-10 text-[10px];
+}
+
+.last-container{
+  @apply flex flex-row justify-between text-[6px] gap-x-10;
+}

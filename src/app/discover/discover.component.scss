@@ -1,6 +1,42 @@
+.headline-container{
+  @apply p-24 flex flex-col;
+}
 
+.headline{
+  @apply text-4xl text-white;
+}
+
+.genre-container{
+  @apply text-4xl text-white flex flex-row justify-between;
+}
+
+.button-container-1{
+  @apply gap-4 flex flex-row;
+}
+
+.genre-button{
+  @apply bg-transparent rounded-[50px] w-[60px] h-[40px] text-white;
+}
 .main-container{
   @apply p-32 grid grid-cols-3 grid-rows-4 gap-24;
+}
+
+@media(max-width: 1526px){
+  .main-container{
+    @apply grid grid-cols-1 justify-center items-center;
+  }
+}
+
+@media(max-width: 1526px){
+  .headline{
+    @apply  hidden;
+  }
+}
+
+@media(max-width: 1526px){
+  .genre-container{
+    @apply  hidden;
+  }
 }
 
 .card-container{
