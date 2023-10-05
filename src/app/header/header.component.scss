@@ -4,6 +4,19 @@
   border-bottom: 1px solid #fff;
 }
 
+@media(max-width: 768px){
+  .header-container{
+    @apply gap-x-10 p-8;
+  }
+}
+
+@media(max-width: 1268px){
+  .header-container{
+    @apply gap-x-12 p-8;
+  }
+}
+
+
 .sec-title {
   @apply font-light;
 }
@@ -23,6 +36,11 @@
   }
 }
 
+@media(max-width: 768px){
+  .nav-container{
+    @apply flex-col gap-2 ;
+  }
+}
 
 .header-icons{
   @apply flex flex-row gap-x-10;
